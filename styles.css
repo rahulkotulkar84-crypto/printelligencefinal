@@ -1,0 +1,22 @@
+
+:root{--deep-blue:#1a365d;--orange:#dd6b20;--muted:#65738a;--maxw:1200px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, Poppins, Arial;background:#f8fafc;color:#122}
+.header{display:flex;align-items:center;justify-content:space-between;padding:14px 28px;background:white;box-shadow:0 1px 6px rgba(0,0,0,0.04);position:sticky;top:0;z-index:40}
+.header .brand{font-weight:700;color:var(--deep-blue);font-size:20px}
+.header nav a{margin-left:14px;color:var(--deep-blue);text-decoration:none}
+.container{max-width:var(--maxw);margin:0 auto;padding:22px}
+.hero-banner.fullbg{height:88vh;background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;position:relative}
+.hero-banner .overlay{position:relative;z-index:2;text-align:center;color:white;padding:28px;background:linear-gradient(180deg,rgba(26,54,93,0.18),rgba(26,54,93,0.12));border-radius:12px}
+.hero-banner::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0.12),rgba(0,0,0,0.12));z-index:1}
+.categories-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px}
+.card{background:white;padding:18px;border-radius:10px;box-shadow:0 8px 30px rgba(16,24,40,0.06);text-align:center}
+.card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+.product-gallery{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.product-gallery img{width:100%;max-width:320px;border-radius:8px;box-shadow:0 8px 22px rgba(0,0,0,0.06)}
+.section-title{font-size:26px;color:var(--deep-blue);margin:14px 0}
+.pricing-box{background:white;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04);display:inline-block}
+.footer{padding:28px;text-align:center;color:#667085;background:white;margin-top:36px}
+.btn{background:var(--deep-blue);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;display:inline-block}
+@media(max-width:900px){ .hero-banner.fullbg{height:58vh} .hero-banner .overlay{padding:16px} .product-gallery img{max-width:48%} }
+@media(max-width:480px){ .product-gallery img{max-width:100%} .header{padding:10px} }
