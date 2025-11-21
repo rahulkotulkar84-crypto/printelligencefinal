@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Product 1",
+    "slug": "premium-product-1",
+    "price_entry": 349,
+    "price_standard": 999,
+    "price_premium": 2699,
+    "description": "Luxury description for Premium Product 1. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_1_1.jpg",
+      "assets/product_1_2.jpg",
+      "assets/product_1_3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Premium Product 2",
+    "slug": "premium-product-2",
+    "price_entry": 399,
+    "price_standard": 1099,
+    "price_premium": 2899,
+    "description": "Luxury description for Premium Product 2. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_2_1.jpg",
+      "assets/product_2_2.jpg",
+      "assets/product_2_3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Product 3",
+    "slug": "premium-product-3",
+    "price_entry": 449,
+    "price_standard": 1199,
+    "price_premium": 3099,
+    "description": "Luxury description for Premium Product 3. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_3_1.jpg",
+      "assets/product_3_2.jpg",
+      "assets/product_3_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Premium Product 4",
+    "slug": "premium-product-4",
+    "price_entry": 499,
+    "price_standard": 1299,
+    "price_premium": 3299,
+    "description": "Luxury description for Premium Product 4. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_4_1.jpg",
+      "assets/product_4_2.jpg",
+      "assets/product_4_3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Premium Product 5",
+    "slug": "premium-product-5",
+    "price_entry": 299,
+    "price_standard": 1399,
+    "price_premium": 3499,
+    "description": "Luxury description for Premium Product 5. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_5_1.jpg",
+      "assets/product_5_2.jpg",
+      "assets/product_5_3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Premium Product 6",
+    "slug": "premium-product-6",
+    "price_entry": 349,
+    "price_standard": 1499,
+    "price_premium": 3699,
+    "description": "Luxury description for Premium Product 6. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_6_1.jpg",
+      "assets/product_6_2.jpg",
+      "assets/product_6_3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Premium Product 7",
+    "slug": "premium-product-7",
+    "price_entry": 399,
+    "price_standard": 899,
+    "price_premium": 3899,
+    "description": "Luxury description for Premium Product 7. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_7_1.jpg",
+      "assets/product_7_2.jpg",
+      "assets/product_7_3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Premium Product 8",
+    "slug": "premium-product-8",
+    "price_entry": 449,
+    "price_standard": 999,
+    "price_premium": 4099,
+    "description": "Luxury description for Premium Product 8. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_8_1.jpg",
+      "assets/product_8_2.jpg",
+      "assets/product_8_3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Premium Product 9",
+    "slug": "premium-product-9",
+    "price_entry": 499,
+    "price_standard": 1099,
+    "price_premium": 4299,
+    "description": "Luxury description for Premium Product 9. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_9_1.jpg",
+      "assets/product_9_2.jpg",
+      "assets/product_9_3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Premium Product 10",
+    "slug": "premium-product-10",
+    "price_entry": 299,
+    "price_standard": 1199,
+    "price_premium": 2499,
+    "description": "Luxury description for Premium Product 10. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_10_1.jpg",
+      "assets/product_10_2.jpg",
+      "assets/product_10_3.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Premium Product 11",
+    "slug": "premium-product-11",
+    "price_entry": 349,
+    "price_standard": 1299,
+    "price_premium": 2699,
+    "description": "Luxury description for Premium Product 11. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_11_1.jpg",
+      "assets/product_11_2.jpg",
+      "assets/product_11_3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Premium Product 12",
+    "slug": "premium-product-12",
+    "price_entry": 399,
+    "price_standard": 1399,
+    "price_premium": 2899,
+    "description": "Luxury description for Premium Product 12. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_12_1.jpg",
+      "assets/product_12_2.jpg",
+      "assets/product_12_3.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Premium Product 13",
+    "slug": "premium-product-13",
+    "price_entry": 449,
+    "price_standard": 1499,
+    "price_premium": 3099,
+    "description": "Luxury description for Premium Product 13. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_13_1.jpg",
+      "assets/product_13_2.jpg",
+      "assets/product_13_3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Premium Product 14",
+    "slug": "premium-product-14",
+    "price_entry": 499,
+    "price_standard": 899,
+    "price_premium": 3299,
+    "description": "Luxury description for Premium Product 14. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_14_1.jpg",
+      "assets/product_14_2.jpg",
+      "assets/product_14_3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Premium Product 15",
+    "slug": "premium-product-15",
+    "price_entry": 299,
+    "price_standard": 999,
+    "price_premium": 3499,
+    "description": "Luxury description for Premium Product 15. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_15_1.jpg",
+      "assets/product_15_2.jpg",
+      "assets/product_15_3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Premium Product 16",
+    "slug": "premium-product-16",
+    "price_entry": 349,
+    "price_standard": 1099,
+    "price_premium": 3699,
+    "description": "Luxury description for Premium Product 16. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_16_1.jpg",
+      "assets/product_16_2.jpg",
+      "assets/product_16_3.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Premium Product 17",
+    "slug": "premium-product-17",
+    "price_entry": 399,
+    "price_standard": 1199,
+    "price_premium": 3899,
+    "description": "Luxury description for Premium Product 17. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_17_1.jpg",
+      "assets/product_17_2.jpg",
+      "assets/product_17_3.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Premium Product 18",
+    "slug": "premium-product-18",
+    "price_entry": 449,
+    "price_standard": 1299,
+    "price_premium": 4099,
+    "description": "Luxury description for Premium Product 18. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_18_1.jpg",
+      "assets/product_18_2.jpg",
+      "assets/product_18_3.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Premium Product 19",
+    "slug": "premium-product-19",
+    "price_entry": 499,
+    "price_standard": 1399,
+    "price_premium": 4299,
+    "description": "Luxury description for Premium Product 19. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_19_1.jpg",
+      "assets/product_19_2.jpg",
+      "assets/product_19_3.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Premium Product 20",
+    "slug": "premium-product-20",
+    "price_entry": 299,
+    "price_standard": 1499,
+    "price_premium": 2499,
+    "description": "Luxury description for Premium Product 20. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_20_1.jpg",
+      "assets/product_20_2.jpg",
+      "assets/product_20_3.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Premium Product 21",
+    "slug": "premium-product-21",
+    "price_entry": 349,
+    "price_standard": 899,
+    "price_premium": 2699,
+    "description": "Luxury description for Premium Product 21. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_21_1.jpg",
+      "assets/product_21_2.jpg",
+      "assets/product_21_3.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Premium Product 22",
+    "slug": "premium-product-22",
+    "price_entry": 399,
+    "price_standard": 999,
+    "price_premium": 2899,
+    "description": "Luxury description for Premium Product 22. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_22_1.jpg",
+      "assets/product_22_2.jpg",
+      "assets/product_22_3.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Premium Product 23",
+    "slug": "premium-product-23",
+    "price_entry": 449,
+    "price_standard": 1099,
+    "price_premium": 3099,
+    "description": "Luxury description for Premium Product 23. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_23_1.jpg",
+      "assets/product_23_2.jpg",
+      "assets/product_23_3.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Premium Product 24",
+    "slug": "premium-product-24",
+    "price_entry": 499,
+    "price_standard": 1199,
+    "price_premium": 3299,
+    "description": "Luxury description for Premium Product 24. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_24_1.jpg",
+      "assets/product_24_2.jpg",
+      "assets/product_24_3.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Premium Product 25",
+    "slug": "premium-product-25",
+    "price_entry": 299,
+    "price_standard": 1299,
+    "price_premium": 3499,
+    "description": "Luxury description for Premium Product 25. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_25_1.jpg",
+      "assets/product_25_2.jpg",
+      "assets/product_25_3.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Premium Product 26",
+    "slug": "premium-product-26",
+    "price_entry": 349,
+    "price_standard": 1399,
+    "price_premium": 3699,
+    "description": "Luxury description for Premium Product 26. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_26_1.jpg",
+      "assets/product_26_2.jpg",
+      "assets/product_26_3.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Premium Product 27",
+    "slug": "premium-product-27",
+    "price_entry": 399,
+    "price_standard": 1499,
+    "price_premium": 3899,
+    "description": "Luxury description for Premium Product 27. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_27_1.jpg",
+      "assets/product_27_2.jpg",
+      "assets/product_27_3.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Premium Product 28",
+    "slug": "premium-product-28",
+    "price_entry": 449,
+    "price_standard": 899,
+    "price_premium": 4099,
+    "description": "Luxury description for Premium Product 28. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_28_1.jpg",
+      "assets/product_28_2.jpg",
+      "assets/product_28_3.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Premium Product 29",
+    "slug": "premium-product-29",
+    "price_entry": 499,
+    "price_standard": 999,
+    "price_premium": 4299,
+    "description": "Luxury description for Premium Product 29. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_29_1.jpg",
+      "assets/product_29_2.jpg",
+      "assets/product_29_3.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Premium Product 30",
+    "slug": "premium-product-30",
+    "price_entry": 299,
+    "price_standard": 1099,
+    "price_premium": 2499,
+    "description": "Luxury description for Premium Product 30. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_30_1.jpg",
+      "assets/product_30_2.jpg",
+      "assets/product_30_3.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Premium Product 31",
+    "slug": "premium-product-31",
+    "price_entry": 349,
+    "price_standard": 1199,
+    "price_premium": 2699,
+    "description": "Luxury description for Premium Product 31. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_31_1.jpg",
+      "assets/product_31_2.jpg",
+      "assets/product_31_3.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Premium Product 32",
+    "slug": "premium-product-32",
+    "price_entry": 399,
+    "price_standard": 1299,
+    "price_premium": 2899,
+    "description": "Luxury description for Premium Product 32. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_32_1.jpg",
+      "assets/product_32_2.jpg",
+      "assets/product_32_3.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Premium Product 33",
+    "slug": "premium-product-33",
+    "price_entry": 449,
+    "price_standard": 1399,
+    "price_premium": 3099,
+    "description": "Luxury description for Premium Product 33. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_33_1.jpg",
+      "assets/product_33_2.jpg",
+      "assets/product_33_3.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Premium Product 34",
+    "slug": "premium-product-34",
+    "price_entry": 499,
+    "price_standard": 1499,
+    "price_premium": 3299,
+    "description": "Luxury description for Premium Product 34. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_34_1.jpg",
+      "assets/product_34_2.jpg",
+      "assets/product_34_3.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Premium Product 35",
+    "slug": "premium-product-35",
+    "price_entry": 299,
+    "price_standard": 899,
+    "price_premium": 3499,
+    "description": "Luxury description for Premium Product 35. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_35_1.jpg",
+      "assets/product_35_2.jpg",
+      "assets/product_35_3.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Premium Product 36",
+    "slug": "premium-product-36",
+    "price_entry": 349,
+    "price_standard": 999,
+    "price_premium": 3699,
+    "description": "Luxury description for Premium Product 36. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_36_1.jpg",
+      "assets/product_36_2.jpg",
+      "assets/product_36_3.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Premium Product 37",
+    "slug": "premium-product-37",
+    "price_entry": 399,
+    "price_standard": 1099,
+    "price_premium": 3899,
+    "description": "Luxury description for Premium Product 37. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_37_1.jpg",
+      "assets/product_37_2.jpg",
+      "assets/product_37_3.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Premium Product 38",
+    "slug": "premium-product-38",
+    "price_entry": 449,
+    "price_standard": 1199,
+    "price_premium": 4099,
+    "description": "Luxury description for Premium Product 38. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_38_1.jpg",
+      "assets/product_38_2.jpg",
+      "assets/product_38_3.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Premium Product 39",
+    "slug": "premium-product-39",
+    "price_entry": 499,
+    "price_standard": 1299,
+    "price_premium": 4299,
+    "description": "Luxury description for Premium Product 39. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_39_1.jpg",
+      "assets/product_39_2.jpg",
+      "assets/product_39_3.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Premium Product 40",
+    "slug": "premium-product-40",
+    "price_entry": 299,
+    "price_standard": 1399,
+    "price_premium": 2499,
+    "description": "Luxury description for Premium Product 40. Crafted on premium stock, ideal for high-end businesses.",
+    "images": [
+      "assets/product_40_1.jpg",
+      "assets/product_40_2.jpg",
+      "assets/product_40_3.jpg"
+    ]
+  }
+]
