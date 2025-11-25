@@ -20,3 +20,1710 @@
 </main>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printelligence | World's Most Premium Luxury Printing Service</title>
+    <meta name="description" content="Experience the pinnacle of luxury printing. Premium business cards, invitations, marketing materials with exquisite craftsmanship and white-glove service.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-blue: #0a1a35;
+            --medium-blue: #1a2d53;
+            --light-blue: #2a3f6f;
+            --silver: #e8e8e8;
+            --light-silver: #f5f5f5;
+            --accent-silver: #c0c0c0;
+            --gold: #d4af37;
+            --text-light: #ffffff;
+            --text-dark: #333333;
+            --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--light-silver);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--medium-blue) 100%);
+            color: var(--text-light);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+            color: var(--silver);
+        }
+
+        .logo-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--silver) 0%, var(--light-silver) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        nav a {
+            color: var(--silver);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+            font-size: 1.05rem;
+        }
+
+        nav a:hover {
+            color: var(--text-light);
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--silver);
+            transition: var(--transition);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+
+        .cart-icon, .user-icon {
+            font-size: 1.3rem;
+            color: var(--silver);
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .cart-count {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: var(--gold);
+            color: var(--deep-blue);
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            font-size: 0.7rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .cart-icon:hover, .user-icon:hover {
+            color: var(--text-light);
+            transform: translateY(-2px);
+        }
+
+        .cta-button {
+            background: linear-gradient(to right, var(--silver) 0%, var(--accent-silver) 100%);
+            color: var(--deep-blue);
+            border: none;
+            padding: 0.9rem 2rem;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(10, 26, 53, 0.85), rgba(10, 26, 53, 0.9)), url('https://images.unsplash.com/photo-1615529163332-c8936c136167?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            color: var(--text-light);
+            position: relative;
+            overflow: hidden;
+            margin-top: 80px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            color: var(--silver);
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        .hero-button {
+            padding: 1.1rem 2.5rem;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.1rem;
+        }
+
+        .primary-button {
+            background: linear-gradient(to right, var(--silver) 0%, var(--accent-silver) 100%);
+            color: var(--deep-blue);
+            border: none;
+        }
+
+        .secondary-button {
+            background: transparent;
+            color: var(--silver);
+            border: 2px solid var(--silver);
+        }
+
+        .primary-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        .secondary-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .floating-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+
+        .floating-element {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .floating-element:nth-child(1) {
+            width: 100px;
+            height: 100px;
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-element:nth-child(2) {
+            width: 70px;
+            height: 70px;
+            top: 60%;
+            left: 80%;
+            animation-delay: 2s;
+        }
+
+        .floating-element:nth-child(3) {
+            width: 120px;
+            height: 120px;
+            top: 40%;
+            left: 85%;
+            animation-delay: 4s;
+        }
+
+        /* Statistics Section */
+        .stats-section {
+            padding: 4rem 0;
+            background: var(--deep-blue);
+            color: var(--text-light);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            padding: 2rem;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .stat-label {
+            color: var(--silver);
+            font-size: 1.1rem;
+        }
+
+        /* Client Showcase */
+        .client-showcase {
+            padding: 5rem 0;
+            background: white;
+        }
+
+        .client-logos {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .client-logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--medium-blue);
+            opacity: 0.7;
+            transition: var(--transition);
+        }
+
+        .client-logo:hover {
+            opacity: 1;
+            transform: translateY(-5px);
+        }
+
+        /* Value Proposition */
+        .value-proposition {
+            padding: 6rem 0;
+            background: linear-gradient(to bottom, var(--light-silver) 0%, #ffffff 100%);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: var(--transition);
+            text-align: center;
+            border-top: 4px solid var(--silver);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--medium-blue) 100%);
+            transition: var(--transition);
+            z-index: 0;
+        }
+
+        .feature-card:hover::before {
+            height: 100%;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card:hover .feature-icon,
+        .feature-card:hover h3,
+        .feature-card:hover p {
+            color: var(--text-light);
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--light-blue);
+            margin-bottom: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .feature-card h3 {
+            color: var(--deep-blue);
+            margin-bottom: 1.2rem;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .feature-card p {
+            color: var(--medium-blue);
+            transition: var(--transition);
+        }
+
+        /* Interactive Product Explorer */
+        .product-explorer {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--medium-blue) 100%);
+            color: var(--text-light);
+        }
+
+        .explorer-container {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .product-controls {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .control-group {
+            margin-bottom: 2rem;
+        }
+
+        .control-group h3 {
+            color: var(--silver);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .material-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .material-option {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .material-option.active {
+            border-color: var(--gold);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .material-option:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .material-sample {
+            width: 60px;
+            height: 60px;
+            border-radius: 5px;
+            margin: 0 auto 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .finish-options {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .finish-option {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 0.7rem 1.2rem;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .finish-option.active {
+            border-color: var(--gold);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .product-preview {
+            background: white;
+            border-radius: 15px;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-dark);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .preview-card {
+            width: 350px;
+            height: 200px;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--medium-blue) 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            position: relative;
+            transition: var(--transition);
+            transform-style: preserve-3d;
+            transform: perspective(1000px) rotateY(0deg);
+        }
+
+        .preview-card.foil {
+            background: linear-gradient(135deg, #1a2d53 0%, #2a3f6f 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .preview-card.embossed {
+            box-shadow: 
+                inset 0 0 20px rgba(0, 0, 0, 0.2),
+                0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .price-display {
+            position: absolute;
+            bottom: 2rem;
+            left: 2rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--deep-blue);
+        }
+
+        /* Process Timeline */
+        .process-section {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .process-steps {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            margin-top: 3rem;
+        }
+
+        .process-steps::before {
+            content: '';
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--silver);
+            opacity: 0.3;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            padding: 0 1rem;
+        }
+
+        .step-number {
+            width: 80px;
+            height: 80px;
+            background: var(--gold);
+            color: var(--deep-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+        }
+
+        .step-content h3 {
+            color: var(--deep-blue);
+            margin-bottom: 1rem;
+        }
+
+        .step-content p {
+            color: var(--medium-blue);
+        }
+
+        /* AI Design Assistant */
+        .ai-assistant {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--medium-blue) 100%);
+            color: var(--text-light);
+        }
+
+        .assistant-container {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .chat-interface {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .message {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 10px;
+            max-width: 80%;
+        }
+
+        .message.ai {
+            background: rgba(255, 255, 255, 0.1);
+            align-self: flex-start;
+        }
+
+        .message.user {
+            background: rgba(212, 175, 55, 0.2);
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        .chat-input {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 1rem;
+            border-radius: 25px;
+            border: none;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+        }
+
+        .chat-input input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .send-button {
+            background: var(--gold);
+            color: var(--deep-blue);
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .send-button:hover {
+            transform: scale(1.1);
+        }
+
+        .design-suggestions {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            color: var(--text-dark);
+        }
+
+        .suggestion-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .suggestion-card {
+            background: var(--light-silver);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .suggestion-card:hover {
+            transform: translateY(-5px);
+            background: var(--silver);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 6rem 0;
+            background: linear-gradient(to bottom, var(--light-silver) 0%, #ffffff 100%);
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+            color: var(--medium-blue);
+            line-height: 1.7;
+            position: relative;
+        }
+
+        .testimonial-text::before {
+            content: '"';
+            font-size: 4rem;
+            color: var(--gold);
+            position: absolute;
+            top: -20px;
+            left: -10px;
+            opacity: 0.3;
+            font-family: Georgia, serif;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .author-info h4 {
+            margin-bottom: 0.3rem;
+            color: var(--deep-blue);
+        }
+
+        .author-info p {
+            color: var(--medium-blue);
+            font-size: 0.9rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, var(--medium-blue) 100%);
+            color: var(--text-light);
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            color: var(--silver);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--deep-blue);
+            color: var(--text-light);
+            padding: 5rem 0 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-column h3 {
+            color: var(--silver);
+            margin-bottom: 1.8rem;
+            font-size: 1.3rem;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 1rem;
+        }
+
+        .footer-column ul li a {
+            color: var(--accent-silver);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--silver);
+            padding-left: 5px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1.2rem;
+            margin-top: 1.8rem;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--silver);
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background: var(--silver);
+            color: var(--deep-blue);
+            transform: translateY(-5px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--accent-silver);
+            font-size: 0.95rem;
+        }
+
+        /* Section Header */
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 3rem;
+            color: var(--deep-blue);
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--gold);
+        }
+
+        .section-header p {
+            color: var(--light-blue);
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+        }
+
+        .section-header.light h2 {
+            color: var(--text-light);
+        }
+
+        .section-header.light p {
+            color: var(--silver);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-25px) rotate(5deg);
+            }
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .hero h1 {
+                font-size: 3.2rem;
+            }
+            
+            .explorer-container,
+            .assistant-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .process-steps {
+                flex-direction: column;
+                gap: 3rem;
+            }
+            
+            .process-steps::before {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 1.2rem;
+            }
+
+            nav ul {
+                gap: 1.2rem;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero {
+                margin-top: 140px;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .features-grid, .testimonials-grid, .suggestion-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .material-options {
+                grid-template-columns: 1fr;
+            }
+
+            .section-header h2 {
+                font-size: 2.5rem;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .client-logos {
+                gap: 2rem;
+            }
+
+            .client-logo {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .finish-options {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="logo-text">Printelligence</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#explorer">Products</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#ai">AI Assistant</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="user-icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <a href="#consultation" class="cta-button">Get Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Where Luxury Meets Precision in Printing</h1>
+            <p>Experience the pinnacle of premium printing with our exclusive deep blue and silver collection. Meticulously crafted for brands that demand nothing but excellence.</p>
+            <div class="hero-buttons">
+                <a href="#explorer" class="hero-button primary-button">Explore Collection</a>
+                <a href="#consultation" class="hero-button secondary-button">Book Consultation</a>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">12,500+</span>
+                    <span class="stat-label">Luxury Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Premium Materials</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Concierge Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Showcase -->
+    <section class="client-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trusted by Luxury Brands Worldwide</h2>
+                <p>Partnering with industry leaders who demand nothing but the finest printing solutions.</p>
+            </div>
+            <div class="client-logos">
+                <div class="client-logo">TIFFANY & CO.</div>
+                <div class="client-logo">MERCEDES-BENZ</div>
+                <div class="client-logo">ROLEX</div>
+                <div class="client-logo">CARTIER</div>
+                <div class="client-logo">LOUIS VUITTON</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-proposition">
+        <div class="container">
+            <div class="section-header">
+                <h2>Uncompromising Excellence</h2>
+                <p>Our luxury printing services redefine industry standards with meticulous attention to detail, premium materials, and unparalleled craftsmanship.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Premium Materials</h3>
+                    <p>Only the finest papers, specialty inks, and luxury finishes selected for their superior quality and exquisite tactile experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Artisan Craftsmanship</h3>
+                    <p>Each piece is meticulously crafted by our master artisans with decades of experience and an unwavering commitment to perfection.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>White-Glove Service</h3>
+                    <p>From consultation to delivery, experience our premium concierge service with expedited luxury shipping and personal attention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Product Explorer -->
+    <section class="product-explorer" id="explorer">
+        <div class="container">
+            <div class="section-header light">
+                <h2>Interactive Product Explorer</h2>
+                <p>Design your perfect luxury printing solution with our real-time configurator.</p>
+            </div>
+            <div class="explorer-container">
+                <div class="product-controls">
+                    <div class="control-group">
+                        <h3>Material Selection</h3>
+                        <div class="material-options">
+                            <div class="material-option active" data-material="cotton">
+                                <div class="material-sample" style="background: #f5f5f5;"></div>
+                                <span>Premium Cotton</span>
+                            </div>
+                            <div class="material-option" data-material="linen">
+                                <div class="material-sample" style="background: #e8e8e8;"></div>
+                                <span>Linen Textured</span>
+                            </div>
+                            <div class="material-option" data-material="metallic">
+                                <div class="material-sample" style="background: linear-gradient(45deg, #c0c0c0, #e8e8e8);"></div>
+                                <span>Silver Metallic</span>
+                            </div>
+                            <div class="material-option" data-material="pearl">
+                                <div class="material-sample" style="background: linear-gradient(45deg, #f0f0f0, #ffffff);"></div>
+                                <span>Pearl Finish</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <h3>Finishing Options</h3>
+                        <div class="finish-options">
+                            <div class="finish-option active" data-finish="standard">Standard</div>
+                            <div class="finish-option" data-finish="foil">Foil Stamping</div>
+                            <div class="finish-option" data-finish="embossed">Embossed</div>
+                            <div class="finish-option" data-finish="spot">Spot UV</div>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <h3>Quantity</h3>
+                        <input type="range" min="100" max="5000" value="500" class="quantity-slider" style="width: 100%;">
+                        <div style="display: flex; justify-content: space-between; margin-top: 0.5rem;">
+                            <span>100 units</span>
+                            <span id="quantity-value">500 units</span>
+                            <span>5000 units</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-preview">
+                    <div class="preview-card" id="product-preview">
+                        <div>YOUR BRAND</div>
+                        <div class="price-display" id="price-display">₹2,499</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline -->
+    <section class="process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Artisan Process</h2>
+                <p>Every Printelligence creation undergoes a meticulous 5-step process to ensure unparalleled quality and craftsmanship.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Consultation</h3>
+                        <p>Personalized consultation with our design experts to understand your vision and requirements.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Material Selection</h3>
+                        <p>Hand-picking the finest papers, inks, and specialty finishes from our premium collection.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Design & Proofing</h3>
+                        <p>Creating custom designs and providing physical proofs for your approval before production.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Artisan Production</h3>
+                        <p>Meticulous production using traditional techniques combined with cutting-edge technology.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>White-Glove Delivery</h3>
+                        <p>Careful packaging and expedited delivery with personal concierge service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Design Assistant -->
+    <section class="ai-assistant" id="ai">
+        <div class="container">
+            <div class="section-header light">
+                <h2>AI Design Assistant</h2>
+                <p>Get personalized design recommendations powered by artificial intelligence.</p>
+            </div>
+            <div class="assistant-container">
+                <div class="chat-interface">
+                    <div class="chat-messages">
+                        <div class="message ai">
+                            Hello! I'm your AI Design Assistant. I can help you create stunning luxury printing designs. What type of project are you working on?
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" placeholder="Type your message here..." id="chat-input">
+                        <button class="send-button" id="send-message">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="design-suggestions">
+                    <h3>Design Suggestions</h3>
+                    <p>Based on your conversation, here are some tailored recommendations:</p>
+                    <div class="suggestion-grid">
+                        <div class="suggestion-card">
+                            <i class="fas fa-id-card" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                            <div>Business Cards</div>
+                        </div>
+                        <div class="suggestion-card">
+                            <i class="fas fa-envelope" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                            <div>Invitations</div>
+                        </div>
+                        <div class="suggestion-card">
+                            <i class="fas fa-brochure" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                            <div>Brochures</div>
+                        </div>
+                        <div class="suggestion-card">
+                            <i class="fas fa-tags" style="font-size: 2rem; margin-bottom: 0.5rem;"></i>
+                            <div>Packaging</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>Discover why luxury brands and discerning clients trust Printelligence for their premium printing needs.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The quality of our corporate stationery from Printelligence has elevated our brand perception significantly. The attention to detail is exceptional.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                        <div class="author-info">
+                            <h4>Robert Chen</h4>
+                            <p>CEO, Sterling Financial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        Our wedding invitations were absolutely stunning. The silver foil detailing and premium paper made our special day even more memorable.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                        <div class="author-info">
+                            <h4>Sophia Williams</h4>
+                            <p>Bride, Luxury Wedding</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        The marketing materials for our luxury product launch exceeded expectations. The print quality and finishing details are unparalleled.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background-image: url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');"></div>
+                        <div class="author-info">
+                            <h4>Michael Rodriguez</h4>
+                            <p>Marketing Director, Prestige Brands</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="consultation">
+        <div class="container">
+            <h2>Ready to Elevate Your Brand?</h2>
+            <p>Experience the Printelligence difference. Contact us today for a personalized consultation and discover how our luxury printing services can transform your brand perception.</p>
+            <a href="#contact" class="hero-button primary-button">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Printelligence</h3>
+                    <p style="color: var(--accent-silver); margin-bottom: 1.5rem;">Elevating brands through premium luxury printing since 2012. Crafting excellence for discerning clients worldwide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Business Stationery</a></li>
+                        <li><a href="#">Marketing Materials</a></li>
+                        <li><a href="#">Packaging & Labels</a></li>
+                        <li><a href="#">Invitations & Events</a></li>
+                        <li><a href="#">Luxury Books & Catalogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Design Studio</a></li>
+                        <li><a href="#">Custom Printing</a></li>
+                        <li><a href="#">Brand Consulting</a></li>
+                        <li><a href="#">Bulk Orders</a></li>
+                        <li><a href="#">White Glove Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Printelligence. All rights reserved. Crafted with excellence for the discerning client.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Enhanced shopping cart functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const cartIcon = document.querySelector('.cart-icon');
+            const cartCount = document.querySelector('.cart-count');
+            let itemCount = 0;
+            
+            // Update cart count with animation
+            function updateCartCount() {
+                itemCount++;
+                cartCount.textContent = itemCount;
+                cartCount.style.display = 'flex';
+                
+                // Add animation
+                cartIcon.classList.add('pulse');
+                setTimeout(() => {
+                    cartIcon.classList.remove('pulse');
+                }, 500);
+            }
+            
+            // Add to cart buttons functionality
+            const addToCartButtons = document.querySelectorAll('.cta-button');
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (this.textContent.includes('Explore') || this.textContent.includes('Start Your Project') || this.textContent.includes('Book Consultation')) return;
+                    e.preventDefault();
+                    updateCartCount();
+                    
+                    // Show added message with enhanced animation
+                    const originalText = this.textContent;
+                    this.textContent = 'Added!';
+                    this.style.background = 'var(--gold)';
+                    this.style.color = 'var(--deep-blue)';
+                    
+                    setTimeout(() => {
+                        this.textContent = originalText;
+                        this.style.background = '';
+                        this.style.color = '';
+                    }, 1500);
+                });
+            });
+            
+            // Enhanced smooth scrolling for navigation links
+            document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    
+                    if (target) {
+                        const headerHeight = document.querySelector('header').offsetHeight;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Enhanced smooth scrolling for hero buttons
+            document.querySelectorAll('.hero-button[href^="#"]').forEach(button => {
+                button.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    
+                    if (target) {
+                        const headerHeight = document.querySelector('header').offsetHeight;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Advanced animation on scroll for elements
+            const animatedElements = document.querySelectorAll('.feature-card, .testimonial-card, .process-step, .suggestion-card');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            animatedElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+                observer.observe(el);
+            });
+
+            // Product Explorer Functionality
+            const materialOptions = document.querySelectorAll('.material-option');
+            const finishOptions = document.querySelectorAll('.finish-option');
+            const quantitySlider = document.querySelector('.quantity-slider');
+            const quantityValue = document.getElementById('quantity-value');
+            const priceDisplay = document.getElementById('price-display');
+            const productPreview = document.getElementById('product-preview');
+
+            let currentMaterial = 'cotton';
+            let currentFinish = 'standard';
+            let currentQuantity = 500;
+
+            // Material selection
+            materialOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    materialOptions.forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    currentMaterial = this.dataset.material;
+                    updateProductPreview();
+                    updatePrice();
+                });
+            });
+
+            // Finish selection
+            finishOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    finishOptions.forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    currentFinish = this.dataset.finish;
+                    updateProductPreview();
+                    updatePrice();
+                });
+            });
+
+            // Quantity slider
+            quantitySlider.addEventListener('input', function() {
+                currentQuantity = parseInt(this.value);
+                quantityValue.textContent = `${currentQuantity} units`;
+                updatePrice();
+            });
+
+            function updateProductPreview() {
+                // Reset classes
+                productPreview.className = 'preview-card';
+                
+                // Add finish-specific classes
+                if (currentFinish === 'foil') {
+                    productPreview.classList.add('foil');
+                } else if (currentFinish === 'embossed') {
+                    productPreview.classList.add('embossed');
+                }
+                
+                // Add subtle animation
+                productPreview.style.transform = 'perspective(1000px) rotateY(10deg)';
+                setTimeout(() => {
+                    productPreview.style.transform = 'perspective(1000px) rotateY(0deg)';
+                }, 300);
+            }
+
+            function updatePrice() {
+                let basePrice = 2499;
+                
+                // Material multipliers
+                const materialMultipliers = {
+                    'cotton': 1.0,
+                    'linen': 1.2,
+                    'metallic': 1.5,
+                    'pearl': 1.3
+                };
+                
+                // Finish multipliers
+                const finishMultipliers = {
+                    'standard': 1.0,
+                    'foil': 1.4,
+                    'embossed': 1.3,
+                    'spot': 1.2
+                };
+                
+                // Quantity discount
+                let quantityDiscount = 1.0;
+                if (currentQuantity >= 1000) quantityDiscount = 0.9;
+                if (currentQuantity >= 2500) quantityDiscount = 0.8;
+                
+                const finalPrice = basePrice * 
+                                 materialMultipliers[currentMaterial] * 
+                                 finishMultipliers[currentFinish] * 
+                                 quantityDiscount;
+                
+                priceDisplay.textContent = `₹${Math.round(finalPrice)}`;
+            }
+
+            // AI Chat Functionality
+            const chatInput = document.getElementById('chat-input');
+            const sendButton = document.getElementById('send-message');
+            const chatMessages = document.querySelector('.chat-messages');
+
+            function addMessage(text, isUser = false) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `message ${isUser ? 'user' : 'ai'}`;
+                messageDiv.textContent = text;
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+
+            function getAIResponse(userMessage) {
+                const responses = [
+                    "I'd recommend our premium cotton paper with silver foil stamping for a sophisticated look that matches luxury brands.",
+                    "For corporate identity, our embossed business cards on linen paper create an unforgettable first impression.",
+                    "Consider our metallic paper with spot UV coating for marketing materials that truly stand out.",
+                    "For wedding invitations, our pearl finish with delicate foil detailing creates an elegant, memorable experience.",
+                    "Our artisan team can create custom die-cut packaging that perfectly represents your brand's uniqueness."
+                ];
+                
+                return responses[Math.floor(Math.random() * responses.length)];
+            }
+
+            sendButton.addEventListener('click', function() {
+                const message = chatInput.value.trim();
+                if (message) {
+                    addMessage(message, true);
+                    chatInput.value = '';
+                    
+                    // Simulate AI thinking
+                    setTimeout(() => {
+                        addMessage(getAIResponse(message));
+                    }, 1000);
+                }
+            });
+
+            chatInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    sendButton.click();
+                }
+            });
+
+            // Statistics counter animation
+            const statNumbers = document.querySelectorAll('.stat-number');
+            const observerOptions = {
+                threshold: 0.5,
+                rootMargin: '0px 0px -100px 0px'
+            };
+            
+            const statsObserver = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const stat = entry.target;
+                        const target = parseInt(stat.textContent);
+                        let current = 0;
+                        const increment = target / 50;
+                        
+                        const timer = setInterval(() => {
+                            current += increment;
+                            if (current >= target) {
+                                stat.textContent = target + (stat.textContent.includes('+') ? '+' : (stat.textContent.includes('%') ? '%' : ''));
+                                clearInterval(timer);
+                            } else {
+                                stat.textContent = Math.floor(current) + (stat.textContent.includes('+') ? '+' : (stat.textContent.includes('%') ? '%' : ''));
+                            }
+                        }, 30);
+                        
+                        statsObserver.unobserve(stat);
+                    }
+                });
+            }, observerOptions);
+            
+            statNumbers.forEach(stat => {
+                statsObserver.observe(stat);
+            });
+
+            // Add CSS for pulse animation
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes pulse {
+                    0% { transform: scale(1); }
+                    50% { transform: scale(1.1); }
+                    100% { transform: scale(1); }
+                }
+                .pulse {
+                    animation: pulse 0.5s ease;
+                }
+            `;
+            document.head.appendChild(style);
+        });
+    </script>
+</body>
+</html>
