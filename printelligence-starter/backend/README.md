@@ -1,0 +1,1 @@
+This is a mock FastAPI backend for pricing and simple endpoints.
